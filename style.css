@@ -40,7 +40,6 @@ header span {
 .main-section .wrapper {
     display: flex;
     align-items: center;
-    gap: 60px;
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
@@ -72,6 +71,7 @@ header span {
 .about-section .wrapper {
     display: flex;
     flex-direction: column;
+    gap: 60px;
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -86,7 +86,7 @@ select {
     background-image: url("./ep_arrow-down.svg");
     background-repeat: no-repeat;
     background-position: right 12px top 50%;
-    /* margin-top: 60px; */
+    margin-top: 60px;
 }
 
 select:hover,
